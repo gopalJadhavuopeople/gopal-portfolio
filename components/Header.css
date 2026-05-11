@@ -16,7 +16,14 @@
   align-items: center;
 }
 
-.header-logo h1 {
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header-logo .header-title h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
@@ -30,6 +37,15 @@
 
 .header-logo h1 {
   margin-bottom: 0.2rem;
+}
+
+.profile-photo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  background: var(--background);
 }
 
 .header-logo .subtitle {

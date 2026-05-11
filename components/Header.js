@@ -8,9 +8,12 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <div className="header-logo">
+          <img src="/profile.svg" alt="Profile photo of Gopal Jadhav" className="profile-photo" />
           <Link href="/">
-            <h1>Gopal Jadhav</h1>
-            <p className="subtitle">QA Automation Engineer</p>
+            <div className="header-title">
+              <h1>Gopal Jadhav</h1>
+              <p className="subtitle">QA Automation Engineer</p>
+            </div>
           </Link>
         </div>
         <nav className="header-nav">
