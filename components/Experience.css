@@ -1,0 +1,147 @@
+.experience {
+  padding: 4rem 2rem;
+  background: var(--background);
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-card {
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.experience-title-section h3 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--foreground);
+}
+
+.company {
+  color: var(--accent);
+  font-weight: 600;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.duration {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.skills {
+  margin-bottom: 1.5rem;
+}
+
+.skills-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background: var(--accent);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.highlights {
+  margin-bottom: 0;
+}
+
+.highlights-label {
+  font-weight: 600;
+  margin: 0 0 0.8rem 0;
+  font-size: 0.95rem;
+}
+
+.highlights ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.highlights li {
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 2rem 1rem;
+  }
+
+  .experience h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .duration {
+    margin-top: 0.5rem;
+  }
+
+  .experience-card {
+    padding: 1.5rem;
+  }
+
+  .experience-title-section h3 {
+    font-size: 1.2rem;
+  }
+}
