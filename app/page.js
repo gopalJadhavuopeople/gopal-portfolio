@@ -6,15 +6,10 @@ export default function Home() {
     <main className="main-content">
       <section className="hero">
         <div className="hero-container">
-          <div className="hero-left">
-            <h1>Gopal Jadhav</h1>
-            <p>QA Automation Engineer | Selenium • Java • TestNG • API Automation</p>
-            <p className="location">📍 Pune, Maharashtra | 📧 gopaljadhav4657@gmail.com | 📱 +91-8999727194</p>
-            <a href="#experience" className="cta-button">View My Experience</a>
-          </div>
-          <div className="hero-right">
-            <img src="/profile.jpg" alt="Gopal Jadhav" className="hero-photo" />
-          </div>
+          <h1>Gopal Jadhav</h1>
+          <p>QA Automation Engineer | Selenium • Java • TestNG • API Automation</p>
+          <p className="location">📍 Pune, Maharashtra | 📧 gopaljadhav4657@gmail.com | 📱 +91-8999727194</p>
+          <a href="#experience" className="cta-button">View My Experience</a>
         </div>
       </section>
 
