@@ -8,7 +8,12 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <div className="header-logo">
-          <img src="/profile.svg" alt="Profile photo of Gopal Jadhav" className="profile-photo" />
+          <img
+            src="/profile.jpg"
+            alt="Profile photo of Gopal Jadhav"
+            className="profile-photo"
+            onError={(e) => { e.currentTarget.src = '/profile.svg'; }}
+          />
           <Link href="/">
             <div className="header-title">
               <h1>Gopal Jadhav</h1>
